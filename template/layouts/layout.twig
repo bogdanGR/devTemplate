@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<title>Dev Template</title>
+	<link rel="stylesheet" href="./font/font.css" type="text/css"/>
+	<link rel="stylesheet" href="./style.css" type="text/css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="page__body" id="page__body">
+	
+	<div class="page__document">
+		
+		{% include  "includes/header.twig" %}
+
+		{% block content %}{% endblock %}
+		
+		{% include  "includes/footer.twig" %}
+		
+	</div>
+
+
+	<!--script src="https://code.jquery.com/jquery-2.2.0.min.js"></script-->
+	<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "base-package",
+  "version": "0.0.3",
+  "description": "package for frontend",
+  "engines": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-prettify": "^0.5.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-twig": "0.7.0",
+    "gulp-uglify": "^2.0.1",
+    "pump": "1.0.2"
+  }
+}

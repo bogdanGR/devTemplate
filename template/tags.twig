@@ -1,0 +1,92 @@
+{% extends "layouts/layout.twig" %}
+
+{% block content %}
+	
+	<div class="main__content">
+		<h1>H1</h1>
+		<h2>H2</h2>
+		<h3>H3</h3>
+		<h4>H4</h4>
+
+		<p>Текстовый абзац номер один, <br>текстовый абзац номер один </p>
+		<p>А это другой абзац</p>
+
+		<p>
+			<b>Жирный текст</b>
+		</p>
+
+		<p>
+			<a href="#">Ссылка</a>
+		</p>
+
+		<p>
+			Обычный текст, <sub>подстрочный текст</sub> <sup>надстрочный текст</sup>
+		</p>
+
+		<ol>
+			<li>Нумерованный</li>
+			<li>список</li>
+		</ol>
+
+		<ul>
+			<li>Маркированный</li>
+			<li>список</li>
+		</ul>
+
+		<blockquote>Текст в blockquote,<br>Текст в blockquote,<br>Текст в blockquote</blockquote>
+
+
+		<p>Таблица</p>
+		<table>
+			<tr>
+				<th>th</th>
+				<th>th</th>
+				<th>th</th>
+				<th>th</th>
+			</tr>
+			<tr>
+				<td>td</td>
+				<td>td</td>
+				<td>td</td>
+				<td>td</td>
+			</tr>
+			<tr>
+				<td>td</td>
+				<td>td</td>
+				<td>td</td>
+				<td>td</td>
+			</tr>
+		</table>
+
+		<br><br>
+
+		<h3>Кнопки</h3>
+
+		<button class="btn">btn</button>
+		
+		<br><br>
+		
+		<button class="btn btn_big">btn btn_big</button>
+		
+		<br><br>
+
+		<button class="btn btn_big btn_w100">btn btn_big</button>
+		
+		<br><br>
+		
+		<button class="btn btn_big btn_disabled">btn btn_big btn_disabled</button>
+		
+		<br><br>
+
+		<button class="btn btn_big" disabled>btn btn_big :disabled</button>
+		
+		<br><br>
+
+		<a href="#" class="btn"> btn Ссылка</a>
+		
+		<br><br>
+
+		<a href="#" class="btn btn_big"> btn btn_big Ссылка</a>
+	</div>
+
+{% endblock %}
