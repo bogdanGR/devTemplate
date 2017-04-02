@@ -1,1 +1,1 @@
-# devTemplate
+Starter project
